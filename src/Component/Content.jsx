@@ -1,6 +1,6 @@
 const Content=(props)=>{
     return(
-        <div id="flex" className={props.class}>
+        <div className="flex">
             <div className="img">
                 <img src={`./Images/${props.image}`} alt="" className="image" />
             </div>
